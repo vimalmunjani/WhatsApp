@@ -1,0 +1,117 @@
+:root {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+body {
+
+	height: 100%;
+	max-width: 100%;
+	
+}
+
+.custom-nav {
+
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(24, 23, 23, 0.19);
+	background-color: lightgray;
+	width: 100%;
+	margin: auto;
+	
+}
+
+.myBG {
+
+	width: 100%;
+	height: 100%;
+	background: url("chatBg.jpg");
+}
+
+li {
+	list-style-type: none;
+}
+
+.sent-message {
+	background-color: 039BE5;
+	width: 65%;
+	margin-left: auto;
+	padding-left: 20px;
+	color: white;
+	margin-right: 1%;
+	margin-bottom: 1%
+}
+
+
+.received-message {
+	background-color: 90A4AE;
+	width: 65%;
+	margin-right: auto;
+	padding-left: 20px;
+	color: white;
+	margin-bottom: 1%
+}
+
+ul {
+	padding-bottom: 50px;
+	padding-top: 75px;
+	padding-left: 1%;
+}
+
+.arrow {
+	color: white;
+}
+
+.profile-pic {
+	margin-right: auto;
+	padding-left: 5
+}
+
+.nav-font {
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px
+}
+
+.bottom-nav-font {
+	color: 616161;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+
+.phone {
+	color: white;
+	margin-left: auto;
+}
+
+.my-contacts{
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+.my-contact{
+	align-self: center;
+	padding: 5px;
+	font-weight: 500;
+	font-size: 1.1em;
+	
+}
+.chat-time{
+	margin-left: auto;
+	font-size: 0.5rem;
+}
+
+.my-badge{
+	margin-left: auto;
+}
+
+.side-screen{
+	background-color: aqua;
+	height: 100%
+	
+}
+.main-screen{
+	width: 100%;
+}
